@@ -1,0 +1,1 @@
+<!-- Intentionally empty — +page.server.ts redirects before this ever renders -->

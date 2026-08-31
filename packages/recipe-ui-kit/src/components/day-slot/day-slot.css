@@ -1,0 +1,87 @@
+:host {
+  display: block;
+  font-family: system-ui, sans-serif;
+}
+
+.slot {
+  position: relative;
+  min-height: 84px;
+  border: 1.5px dashed #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fafafa;
+  transition: border-color 0.12s ease;
+}
+
+.slot:hover {
+  border-color: #e8590c;
+}
+
+.slot.filled {
+  border-style: solid;
+  border-color: transparent;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.filled-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 6px 8px;
+}
+
+.filled-content img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.image-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #f4f0eb;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #777;
+  font-size: 0.6rem;
+}
+
+.title {
+  font-size: 0.8rem;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.remove-btn {
+  border: none;
+  background: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+.remove-btn:hover {
+  color: #e8590c;
+}
+
+.empty-content {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.default-empty {
+  font-size: 0.8rem;
+}
