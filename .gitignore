@@ -4,6 +4,7 @@ loader/
 www/
 .svelte-kit/
 build/
+.vercel/
 .DS_Store
 *.log
 .env

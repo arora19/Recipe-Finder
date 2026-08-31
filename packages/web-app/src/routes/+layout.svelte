@@ -1,13 +1,7 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import { page } from '$app/stores';
 
   let { children } = $props();
-
-  onMount(async () => {
-    const { defineCustomElements } = await import('@arora19/recipe-ui-kit/loader');
-    defineCustomElements();
-  });
 
   const links = [
     { href: '/recipes', label: 'Browse' },
