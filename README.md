@@ -28,6 +28,7 @@ the same dependency from the npm registry.
 
 - **npm:** https://www.npmjs.com/package/@arora19/recipe-ui-kit
 - **GitHub:** https://github.com/arora19/Recipe-Finder
+- **Deployed app:** https://recipe-finder-web-app-18m1.vercel.app
 - **Current version:** `0.1.0`
 
 The package name is `@arora19/recipe-ui-kit`.
